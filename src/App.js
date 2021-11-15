@@ -8,7 +8,7 @@ import Navbar from './Compo/Navbar';
     logo+sideBar   navbar
     sideBar        mainSection
             bottomBar
-             meshv
+             layout
 */
 
 function App() {
