@@ -1,9 +1,14 @@
 import React from 'react'
+import { Allsongs } from './Allsongs'
+// import { Bottombar } from './Bottombar'
+import { SideNav } from './SideNav'
 
 export const Main = () => {
     return (
-        <div className="Main__sec bg-gray-800">
-            main Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus esse atque omnis! Dolorem, explicabo? At atque cum laudantium in enim?
+        <div className="Main__sec  flex bg-gray-800 text-white">
+            <SideNav />
+            <Allsongs />
+            {/* <Bottombar /> */}
         </div>
     )
 }

@@ -1,6 +1,4 @@
 import React from 'react'
-import logo from '../pic/logo.svg'
-import previous from '../pic/previous.svg'
 import  home from '../pic/home.svg'
 import  collection from '../pic/collection.svg'
 import  search from '../pic/search.svg'
@@ -9,10 +7,7 @@ export const SideNav = () => {
         <div>
             <header>
                 <nav className="bg-black h-screen w-60 text-white" >
-                    <div className="logo flex justify-between border-b border-black bg-gray-400">
-                        <img src={logo} alt="" style={{height: '73px', width: '156px',padding: '7px'}}/>
-                        <img src={previous} alt=""  role="button"/>
-                    </div>
+                    
                     <div className="All__side_panels">
                         <div className="home flex  items-center h-16 border-b border-gray-400" role="button">
                             <img src={home} alt="" className="ml-7" />

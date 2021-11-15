@@ -1,0 +1,33 @@
+.Popup__music{
+    position: fixed;
+    transform: translateY(116%);
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+}
+
+/* .mes{
+    @apply bg-gray-100 border;
+} */
+.accent{
+    accent-color: rgb(105 155 247);
+}
+
+.Popup_active{
+    transform: translateY(-116%);
+    width: 82.6%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease;
+}
+.bottom{
+    display:flex;
+    justify-content:flex-end;
+}
+.not__scroll{
+    overflow-y: clip;
+}
+
+.Down__icon{
+    transform: rotate(180deg);
+}
