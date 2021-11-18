@@ -1,7 +1,8 @@
 import './App.css';
-import { Bottombar } from './Compo/Bottombar';
-import { Main } from './Compo/Main';
-import Navbar from './Compo/Navbar';
+// import Navbar from './Compo/Navbar';
+// import { Bottombar } from './Compo/Bottombar';
+// import { Main } from './Compo/Main';
+import { Layout } from './Compo/Layout';
 
 /*
     Using Grid
@@ -14,10 +15,10 @@ import Navbar from './Compo/Navbar';
 function App() {
   return (
     <>
-
-      <Navbar />
+      <Layout />
+      {/* <Navbar />
       <Main />
-      <Bottombar />
+      <Bottombar /> */}
           {/*  <Sec /> */}
     </>
   );
