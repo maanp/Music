@@ -1,7 +1,8 @@
-import React , {useState} from 'react'
+import React , {useState } from 'react'
 import MusicContext from "./MusicContext";
 
 export const MusicState = (props) => {
+   
 
     let allSongs = {
         "track": [
@@ -124,9 +125,12 @@ export const MusicState = (props) => {
     }
     const [playingsong, setPlayingsong] = useState(hindisongs.songs[0]);
     const [show, setShow] = useState(false);
+    const [hasplay, setHasplay] = useState(false)
+    
+
 
     return (
-        <MusicContext.Provider value={{ allSongs,hindisongs , playingsong , setPlayingsong , show , setShow }}>
+        <MusicContext.Provider value={{hasplay ,setHasplay , allSongs,hindisongs , playingsong , setPlayingsong , show , setShow }}>
             {props.children}
         </MusicContext.Provider>
     );

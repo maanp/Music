@@ -21,29 +21,7 @@ export const Allsongs = () => {
         setPlayingsong(currentSong)
     }
 
-    // let songs = document.querySelector("#so");
-    // let mouseDown = false;
-    // let startX, scrollLeft;
-
-    // let startDragging = function (e) {
-    // mouseDown = true;
-    // startX = e.pageX - songs.offsetLeft;
-    // scrollLeft = songs.scrollLeft;
-    // };
-    // let stopDragging = function (event) {
-    // mouseDown = false;
-    // };
-
-    // songs.addEventListener('mousemove', (e) => {
-    // e.preventDefault();
-    // if(!mouseDown) { return; }
-    // const x = e.pageX - songs.offsetLeft;
-    // const scroll = x - startX;
-    // songs.scrollLeft = scrollLeft - scroll;
-    // });
-    // songs.addEventListener('mousedown', startDragging, false);
-    // songs.addEventListener('mouseup', stopDragging, false);
-    // songs.addEventListener('mouseleave', stopDragging, false); 
+    
 
     return (
         <>
